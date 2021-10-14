@@ -26,10 +26,10 @@ while True:
         else:
             print(f"The improper fraction can be reduced further to become: {gcdn}/{gcdd}\nThe whole number is {whole}")
     end = (input("Do you want to do another fraction (y/n): "))
-    if end == "y":
+    if end == "Yes":
         continue
-    elif end == "n":
+    elif end == "No":
         break
     else:
-        print("Ill take that as a no\nEnding program...")
+        print("Goodbye!")
         break
